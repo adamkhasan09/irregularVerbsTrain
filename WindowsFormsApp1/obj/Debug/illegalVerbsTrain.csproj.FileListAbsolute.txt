@@ -1,0 +1,11 @@
+F:\project_SCADA\VS\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+F:\project_SCADA\VS\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+F:\project_SCADA\VS\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+F:\project_SCADA\VS\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\illegalVerbsTrain.csproj.AssemblyReference.cache
+F:\project_SCADA\VS\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\illegalVerbsTrain.csproj.ResolveComReference.cache
+F:\project_SCADA\VS\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+F:\project_SCADA\VS\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+F:\project_SCADA\VS\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\illegalVerbsTrain.csproj.GenerateResource.cache
+F:\project_SCADA\VS\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\illegalVerbsTrain.csproj.CoreCompileInputs.cache
+F:\project_SCADA\VS\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+F:\project_SCADA\VS\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

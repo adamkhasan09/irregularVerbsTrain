@@ -1,0 +1,11 @@
+F:\project_SCADA\VS\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\IrregularVerbs.exe.config
+F:\project_SCADA\VS\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\IrregularVerbs.exe
+F:\project_SCADA\VS\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\IrregularVerbs.pdb
+F:\project_SCADA\VS\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\IrregularVerbsTrain.csproj.AssemblyReference.cache
+F:\project_SCADA\VS\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\IrregularVerbsTrain.csproj.ResolveComReference.cache
+F:\project_SCADA\VS\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+F:\project_SCADA\VS\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\IrregularVerbs.Properties.Resources.resources
+F:\project_SCADA\VS\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\IrregularVerbsTrain.csproj.GenerateResource.cache
+F:\project_SCADA\VS\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\IrregularVerbsTrain.csproj.CoreCompileInputs.cache
+F:\project_SCADA\VS\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\IrregularVerbs.exe
+F:\project_SCADA\VS\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\IrregularVerbs.pdb
