@@ -74,6 +74,8 @@ namespace WindowsFormsApp1
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.button8 = new System.Windows.Forms.Button();
             this.label22 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.nO = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -165,7 +167,7 @@ namespace WindowsFormsApp1
             // textBox3
             // 
             this.textBox3.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox3.Location = new System.Drawing.Point(777, 270);
+            this.textBox3.Location = new System.Drawing.Point(775, 282);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(203, 38);
             this.textBox3.TabIndex = 10;
@@ -200,7 +202,7 @@ namespace WindowsFormsApp1
             this.label5.AutoSize = true;
             this.label5.Cursor = System.Windows.Forms.Cursors.SizeNESW;
             this.label5.Font = new System.Drawing.Font("Arial Narrow", 26.25F);
-            this.label5.Location = new System.Drawing.Point(16, 203);
+            this.label5.Location = new System.Drawing.Point(14, 215);
             this.label5.Name = "label5";
             this.label5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label5.Size = new System.Drawing.Size(111, 42);
@@ -212,7 +214,7 @@ namespace WindowsFormsApp1
             this.label6.AutoSize = true;
             this.label6.Cursor = System.Windows.Forms.Cursors.SizeNESW;
             this.label6.Font = new System.Drawing.Font("Arial Narrow", 26.25F);
-            this.label6.Location = new System.Drawing.Point(777, 163);
+            this.label6.Location = new System.Drawing.Point(775, 175);
             this.label6.Name = "label6";
             this.label6.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label6.Size = new System.Drawing.Size(359, 42);
@@ -223,7 +225,7 @@ namespace WindowsFormsApp1
             // 
             this.button3.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button3.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.button3.Location = new System.Drawing.Point(986, 266);
+            this.button3.Location = new System.Drawing.Point(984, 279);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(143, 42);
             this.button3.TabIndex = 15;
@@ -236,7 +238,7 @@ namespace WindowsFormsApp1
             this.label8.AutoSize = true;
             this.label8.Cursor = System.Windows.Forms.Cursors.SizeNESW;
             this.label8.Font = new System.Drawing.Font("Arial Narrow", 26.25F);
-            this.label8.Location = new System.Drawing.Point(16, 266);
+            this.label8.Location = new System.Drawing.Point(14, 278);
             this.label8.Name = "label8";
             this.label8.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label8.Size = new System.Drawing.Size(143, 42);
@@ -250,7 +252,7 @@ namespace WindowsFormsApp1
             this.word.Cursor = System.Windows.Forms.Cursors.SizeNESW;
             this.word.Font = new System.Drawing.Font("Arial Narrow", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.word.ForeColor = System.Drawing.Color.Black;
-            this.word.Location = new System.Drawing.Point(165, 203);
+            this.word.Location = new System.Drawing.Point(163, 215);
             this.word.Name = "word";
             this.word.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.word.Size = new System.Drawing.Size(398, 42);
@@ -261,12 +263,12 @@ namespace WindowsFormsApp1
             // 
             this.trans.AutoSize = true;
             this.trans.Cursor = System.Windows.Forms.Cursors.SizeNESW;
-            this.trans.Font = new System.Drawing.Font("Arial Narrow", 20.25F);
-            this.trans.ForeColor = System.Drawing.Color.SeaGreen;
-            this.trans.Location = new System.Drawing.Point(165, 273);
+            this.trans.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.trans.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.trans.Location = new System.Drawing.Point(163, 285);
             this.trans.Name = "trans";
             this.trans.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.trans.Size = new System.Drawing.Size(564, 31);
+            this.trans.Size = new System.Drawing.Size(547, 29);
             this.trans.TabIndex = 19;
             this.trans.Text = "Сидеть верхом; стоять расставив ноги; перешагивать";
             this.trans.Visible = false;
@@ -276,7 +278,7 @@ namespace WindowsFormsApp1
             this.label10.AutoSize = true;
             this.label10.Cursor = System.Windows.Forms.Cursors.SizeNESW;
             this.label10.Font = new System.Drawing.Font("Arial Narrow", 26.25F);
-            this.label10.Location = new System.Drawing.Point(16, 327);
+            this.label10.Location = new System.Drawing.Point(14, 339);
             this.label10.Name = "label10";
             this.label10.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label10.Size = new System.Drawing.Size(222, 42);
@@ -289,7 +291,7 @@ namespace WindowsFormsApp1
             this.label11.AutoSize = true;
             this.label11.Cursor = System.Windows.Forms.Cursors.SizeNESW;
             this.label11.Font = new System.Drawing.Font("Arial Narrow", 26.25F);
-            this.label11.Location = new System.Drawing.Point(16, 386);
+            this.label11.Location = new System.Drawing.Point(14, 398);
             this.label11.Name = "label11";
             this.label11.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label11.Size = new System.Drawing.Size(220, 42);
@@ -303,7 +305,7 @@ namespace WindowsFormsApp1
             this.second.Cursor = System.Windows.Forms.Cursors.SizeNESW;
             this.second.Font = new System.Drawing.Font("Arial Narrow", 26.25F);
             this.second.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.second.Location = new System.Drawing.Point(244, 327);
+            this.second.Location = new System.Drawing.Point(242, 339);
             this.second.Name = "second";
             this.second.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.second.Size = new System.Drawing.Size(368, 42);
@@ -317,7 +319,7 @@ namespace WindowsFormsApp1
             this.third.Cursor = System.Windows.Forms.Cursors.SizeNESW;
             this.third.Font = new System.Drawing.Font("Arial Narrow", 26.25F);
             this.third.ForeColor = System.Drawing.Color.Orchid;
-            this.third.Location = new System.Drawing.Point(244, 386);
+            this.third.Location = new System.Drawing.Point(242, 398);
             this.third.Name = "third";
             this.third.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.third.Size = new System.Drawing.Size(368, 42);
@@ -329,7 +331,7 @@ namespace WindowsFormsApp1
             // 
             this.button4.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button4.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.button4.Location = new System.Drawing.Point(986, 329);
+            this.button4.Location = new System.Drawing.Point(984, 343);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(143, 42);
             this.button4.TabIndex = 25;
@@ -340,7 +342,7 @@ namespace WindowsFormsApp1
             // textBox4
             // 
             this.textBox4.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox4.Location = new System.Drawing.Point(777, 335);
+            this.textBox4.Location = new System.Drawing.Point(775, 347);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(203, 38);
             this.textBox4.TabIndex = 24;
@@ -349,7 +351,7 @@ namespace WindowsFormsApp1
             // 
             this.button5.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button5.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.button5.Location = new System.Drawing.Point(986, 388);
+            this.button5.Location = new System.Drawing.Point(984, 402);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(142, 42);
             this.button5.TabIndex = 27;
@@ -360,7 +362,7 @@ namespace WindowsFormsApp1
             // textBox5
             // 
             this.textBox5.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox5.Location = new System.Drawing.Point(777, 394);
+            this.textBox5.Location = new System.Drawing.Point(775, 408);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(203, 38);
             this.textBox5.TabIndex = 26;
@@ -377,7 +379,7 @@ namespace WindowsFormsApp1
             // 
             this.button6.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button6.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.button6.Location = new System.Drawing.Point(199, 457);
+            this.button6.Location = new System.Drawing.Point(222, 469);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(142, 52);
             this.button6.TabIndex = 29;
@@ -389,7 +391,7 @@ namespace WindowsFormsApp1
             // 
             this.button7.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button7.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.button7.Location = new System.Drawing.Point(347, 457);
+            this.button7.Location = new System.Drawing.Point(370, 469);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(142, 52);
             this.button7.TabIndex = 30;
@@ -403,7 +405,7 @@ namespace WindowsFormsApp1
             this.label14.Cursor = System.Windows.Forms.Cursors.SizeNESW;
             this.label14.Font = new System.Drawing.Font("Arial Black", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label14.ForeColor = System.Drawing.Color.Maroon;
-            this.label14.Location = new System.Drawing.Point(777, 248);
+            this.label14.Location = new System.Drawing.Point(775, 260);
             this.label14.Name = "label14";
             this.label14.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label14.Size = new System.Drawing.Size(208, 22);
@@ -417,7 +419,7 @@ namespace WindowsFormsApp1
             this.label15.Cursor = System.Windows.Forms.Cursors.SizeNESW;
             this.label15.Font = new System.Drawing.Font("Arial Black", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label15.ForeColor = System.Drawing.Color.Maroon;
-            this.label15.Location = new System.Drawing.Point(777, 313);
+            this.label15.Location = new System.Drawing.Point(775, 325);
             this.label15.Name = "label15";
             this.label15.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label15.Size = new System.Drawing.Size(208, 22);
@@ -431,7 +433,7 @@ namespace WindowsFormsApp1
             this.label16.Cursor = System.Windows.Forms.Cursors.SizeNESW;
             this.label16.Font = new System.Drawing.Font("Arial Black", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label16.ForeColor = System.Drawing.Color.Maroon;
-            this.label16.Location = new System.Drawing.Point(777, 374);
+            this.label16.Location = new System.Drawing.Point(775, 386);
             this.label16.Name = "label16";
             this.label16.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label16.Size = new System.Drawing.Size(208, 22);
@@ -443,7 +445,7 @@ namespace WindowsFormsApp1
             // 
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Arial Narrow", 20.25F);
-            this.label17.Location = new System.Drawing.Point(17, 552);
+            this.label17.Location = new System.Drawing.Point(15, 564);
             this.label17.Name = "label17";
             this.label17.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label17.Size = new System.Drawing.Size(392, 31);
@@ -453,7 +455,7 @@ namespace WindowsFormsApp1
             // textBox7
             // 
             this.textBox7.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox7.Location = new System.Drawing.Point(406, 552);
+            this.textBox7.Location = new System.Drawing.Point(404, 564);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(108, 38);
             this.textBox7.TabIndex = 36;
@@ -462,7 +464,7 @@ namespace WindowsFormsApp1
             // 
             this.button9.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button9.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.button9.Location = new System.Drawing.Point(520, 547);
+            this.button9.Location = new System.Drawing.Point(518, 559);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(160, 47);
             this.button9.TabIndex = 37;
@@ -476,7 +478,7 @@ namespace WindowsFormsApp1
             this.label19.Cursor = System.Windows.Forms.Cursors.SizeNESW;
             this.label19.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label19.ForeColor = System.Drawing.Color.Maroon;
-            this.label19.Location = new System.Drawing.Point(16, 308);
+            this.label19.Location = new System.Drawing.Point(14, 320);
             this.label19.Name = "label19";
             this.label19.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label19.Size = new System.Drawing.Size(172, 18);
@@ -489,7 +491,7 @@ namespace WindowsFormsApp1
             this.label20.Cursor = System.Windows.Forms.Cursors.SizeNESW;
             this.label20.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label20.ForeColor = System.Drawing.Color.Maroon;
-            this.label20.Location = new System.Drawing.Point(16, 369);
+            this.label20.Location = new System.Drawing.Point(14, 381);
             this.label20.Name = "label20";
             this.label20.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label20.Size = new System.Drawing.Size(104, 18);
@@ -502,7 +504,7 @@ namespace WindowsFormsApp1
             this.label21.Cursor = System.Windows.Forms.Cursors.SizeNESW;
             this.label21.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label21.ForeColor = System.Drawing.Color.Maroon;
-            this.label21.Location = new System.Drawing.Point(16, 428);
+            this.label21.Location = new System.Drawing.Point(14, 440);
             this.label21.Name = "label21";
             this.label21.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label21.Size = new System.Drawing.Size(104, 18);
@@ -514,7 +516,7 @@ namespace WindowsFormsApp1
             this.label7.AutoSize = true;
             this.label7.Cursor = System.Windows.Forms.Cursors.SizeNESW;
             this.label7.Font = new System.Drawing.Font("Arial Narrow", 20.25F);
-            this.label7.Location = new System.Drawing.Point(20, 582);
+            this.label7.Location = new System.Drawing.Point(18, 594);
             this.label7.Name = "label7";
             this.label7.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label7.Size = new System.Drawing.Size(77, 31);
@@ -529,7 +531,7 @@ namespace WindowsFormsApp1
             this.label9.Cursor = System.Windows.Forms.Cursors.SizeNESW;
             this.label9.Font = new System.Drawing.Font("Arial Black", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label9.ForeColor = System.Drawing.Color.SeaGreen;
-            this.label9.Location = new System.Drawing.Point(777, 248);
+            this.label9.Location = new System.Drawing.Point(775, 260);
             this.label9.Name = "label9";
             this.label9.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label9.Size = new System.Drawing.Size(126, 22);
@@ -543,7 +545,7 @@ namespace WindowsFormsApp1
             this.label12.Cursor = System.Windows.Forms.Cursors.SizeNESW;
             this.label12.Font = new System.Drawing.Font("Arial Black", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label12.ForeColor = System.Drawing.Color.SeaGreen;
-            this.label12.Location = new System.Drawing.Point(777, 313);
+            this.label12.Location = new System.Drawing.Point(775, 325);
             this.label12.Name = "label12";
             this.label12.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label12.Size = new System.Drawing.Size(126, 22);
@@ -557,7 +559,7 @@ namespace WindowsFormsApp1
             this.label13.Cursor = System.Windows.Forms.Cursors.SizeNESW;
             this.label13.Font = new System.Drawing.Font("Arial Black", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label13.ForeColor = System.Drawing.Color.SeaGreen;
-            this.label13.Location = new System.Drawing.Point(777, 374);
+            this.label13.Location = new System.Drawing.Point(775, 385);
             this.label13.Name = "label13";
             this.label13.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label13.Size = new System.Drawing.Size(126, 22);
@@ -572,7 +574,7 @@ namespace WindowsFormsApp1
             this.label18.Enabled = false;
             this.label18.Font = new System.Drawing.Font("Arial Narrow", 10.25F);
             this.label18.ForeColor = System.Drawing.Color.Black;
-            this.label18.Location = new System.Drawing.Point(17, 173);
+            this.label18.Location = new System.Drawing.Point(15, 185);
             this.label18.Name = "label18";
             this.label18.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label18.Size = new System.Drawing.Size(328, 17);
@@ -582,7 +584,7 @@ namespace WindowsFormsApp1
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(686, 441);
+            this.dataGridView1.Location = new System.Drawing.Point(684, 453);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(443, 153);
             this.dataGridView1.TabIndex = 48;
@@ -606,7 +608,7 @@ namespace WindowsFormsApp1
             this.label22.AutoSize = true;
             this.label22.Cursor = System.Windows.Forms.Cursors.SizeNESW;
             this.label22.Font = new System.Drawing.Font("Arial Narrow", 20.25F);
-            this.label22.Location = new System.Drawing.Point(20, 608);
+            this.label22.Location = new System.Drawing.Point(18, 620);
             this.label22.Name = "label22";
             this.label22.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label22.Size = new System.Drawing.Size(65, 31);
@@ -615,11 +617,37 @@ namespace WindowsFormsApp1
             this.label22.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             this.label22.Visible = false;
             // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Arial Narrow", 20.25F);
+            this.label23.Location = new System.Drawing.Point(18, 480);
+            this.label23.Name = "label23";
+            this.label23.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.label23.Size = new System.Drawing.Size(110, 31);
+            this.label23.TabIndex = 51;
+            this.label23.Text = ": Счетчик";
+            // 
+            // nO
+            // 
+            this.nO.AutoSize = true;
+            this.nO.Cursor = System.Windows.Forms.Cursors.SizeNESW;
+            this.nO.Font = new System.Drawing.Font("Arial Narrow", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.nO.ForeColor = System.Drawing.Color.Black;
+            this.nO.Location = new System.Drawing.Point(124, 476);
+            this.nO.Name = "nO";
+            this.nO.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.nO.Size = new System.Drawing.Size(34, 42);
+            this.nO.TabIndex = 52;
+            this.nO.Text = "0";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1142, 638);
+            this.ClientSize = new System.Drawing.Size(1142, 656);
+            this.Controls.Add(this.nO);
+            this.Controls.Add(this.label23);
             this.Controls.Add(this.label22);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.dataGridView1);
@@ -666,7 +694,7 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.label2);
             this.Controls.Add(this.textBox1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "irregular verbs training";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
@@ -720,6 +748,8 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label nO;
     }
 }
 

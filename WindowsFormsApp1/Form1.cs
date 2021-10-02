@@ -53,6 +53,7 @@ namespace WindowsFormsApp1
                 //MessageBox.Show(strIntArr(indexs));
                 shakeTable();
                 Stydy();
+                nO.Text = tb.Rows.Count.ToString();
 
             }
             catch
@@ -77,6 +78,7 @@ namespace WindowsFormsApp1
                 tb.Rows[0].Delete();
                 tb.AcceptChanges();
                 Stydy();
+                nO.Text = tb.Rows.Count.ToString();
             }
             else
             {
@@ -215,7 +217,8 @@ namespace WindowsFormsApp1
                 //MessageBox.Show(strIntArr(indexs));
                 shakeTable();
                 Stydy();
-                
+                nO.Text = tb.Rows.Count.ToString();
+
             }
             catch
             {
