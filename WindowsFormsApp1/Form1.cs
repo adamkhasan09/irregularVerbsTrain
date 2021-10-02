@@ -120,14 +120,14 @@ namespace WindowsFormsApp1
                    
                     excelObj2.Save();
                     excelObj2.Close();
-                    excelObj = new ExcelHelper(path + @"\sours.xlsx", 1);
+                    excelObj = new ExcelHelper(path +fileName, 1);
                     MessageBox.Show("Ваши слова успешно схраненены строка для извлечения: " + textBox7.Text);
                 }
                 if (cell_mode)
                 {
                     excelObj.Close();
                     int saveIdx = int.Parse(textBox6.Text);
-                    ExcelHelper excelObj2 = new ExcelHelper(path + @"\sours.xlsx", 2);
+                    ExcelHelper excelObj2 = new ExcelHelper(path +fileName, 2);
                     string ids = excelObj2.ReadCell(saveIdx, 1);
                     
                     if (ids == "")
@@ -160,7 +160,7 @@ namespace WindowsFormsApp1
                        
                     }
                     excelObj2.Close();
-                    excelObj = new ExcelHelper(path + @"\sours.xlsx", 1);
+                    excelObj = new ExcelHelper(path +fileName, 1);
 
 
                 }
@@ -181,10 +181,10 @@ namespace WindowsFormsApp1
             try{
                 excelObj.Close();
                 int cellNo = int.Parse(textBox6.Text);
-                ExcelHelper excelObj2 = new ExcelHelper(path + @"\sours.xlsx", 2);
+                ExcelHelper excelObj2 = new ExcelHelper(path +fileName, 2);
                 string idxs = excelObj2.ReadCell(cellNo, 1);
                 excelObj2.Close();
-                excelObj = new ExcelHelper(path + @"\sours.xlsx", 1);
+                excelObj = new ExcelHelper(path +fileName, 1);
                 //MessageBox.Show(idxs);
                 
                 string[] idxsArr = baseH.explode(",", idxs);
