@@ -15,7 +15,8 @@ namespace WindowsFormsApp1
     
     public partial class Form1 : Form
     {
-        ExcelHelper excelObj = new ExcelHelper(path + @"\source.xlsx", 1);
+        static string fileName = @"\source.xlsx";
+        ExcelHelper excelObj = new ExcelHelper(path + fileName, 1);
         BaseHelper baseH = new BaseHelper();
         Random random = new Random();
         public static string path = Directory.GetCurrentDirectory();
@@ -101,7 +102,7 @@ namespace WindowsFormsApp1
                 if (!cell_mode)
                 {
                     excelObj.Close();
-                    ExcelHelper excelObj2 = new ExcelHelper(path + @"\sours.xlsx", 2);
+                    ExcelHelper excelObj2 = new ExcelHelper(path + fileName, 2);
                     int save_cell = int.Parse(textBox7.Text);
                     string cell = excelObj2.ReadCell(save_cell,1);
                     //MessageBox.Show(cell);

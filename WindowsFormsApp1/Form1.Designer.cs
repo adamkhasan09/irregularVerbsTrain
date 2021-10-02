@@ -248,12 +248,12 @@ namespace WindowsFormsApp1
             // 
             this.word.AutoSize = true;
             this.word.Cursor = System.Windows.Forms.Cursors.SizeNESW;
-            this.word.Font = new System.Drawing.Font("Arial Narrow", 26.25F);
-            this.word.ForeColor = System.Drawing.Color.DarkSalmon;
+            this.word.Font = new System.Drawing.Font("Arial Narrow", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.word.ForeColor = System.Drawing.Color.Black;
             this.word.Location = new System.Drawing.Point(165, 203);
             this.word.Name = "word";
             this.word.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.word.Size = new System.Drawing.Size(368, 42);
+            this.word.Size = new System.Drawing.Size(398, 42);
             this.word.TabIndex = 18;
             this.word.Text = "Very long word for example";
             // 
@@ -401,12 +401,12 @@ namespace WindowsFormsApp1
             // 
             this.label14.AutoSize = true;
             this.label14.Cursor = System.Windows.Forms.Cursors.SizeNESW;
-            this.label14.Font = new System.Drawing.Font("Arial Narrow", 10.25F);
+            this.label14.Font = new System.Drawing.Font("Arial Black", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label14.ForeColor = System.Drawing.Color.Maroon;
             this.label14.Location = new System.Drawing.Point(777, 248);
             this.label14.Name = "label14";
             this.label14.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label14.Size = new System.Drawing.Size(129, 17);
+            this.label14.Size = new System.Drawing.Size(208, 22);
             this.label14.TabIndex = 32;
             this.label14.Text = "Упс... где-то накосячил";
             this.label14.Visible = false;
@@ -415,12 +415,12 @@ namespace WindowsFormsApp1
             // 
             this.label15.AutoSize = true;
             this.label15.Cursor = System.Windows.Forms.Cursors.SizeNESW;
-            this.label15.Font = new System.Drawing.Font("Arial Narrow", 10.25F);
+            this.label15.Font = new System.Drawing.Font("Arial Black", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label15.ForeColor = System.Drawing.Color.Maroon;
             this.label15.Location = new System.Drawing.Point(777, 313);
             this.label15.Name = "label15";
             this.label15.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label15.Size = new System.Drawing.Size(129, 17);
+            this.label15.Size = new System.Drawing.Size(208, 22);
             this.label15.TabIndex = 33;
             this.label15.Text = "Упс... где-то накосячил";
             this.label15.Visible = false;
@@ -429,12 +429,12 @@ namespace WindowsFormsApp1
             // 
             this.label16.AutoSize = true;
             this.label16.Cursor = System.Windows.Forms.Cursors.SizeNESW;
-            this.label16.Font = new System.Drawing.Font("Arial Narrow", 10.25F);
+            this.label16.Font = new System.Drawing.Font("Arial Black", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label16.ForeColor = System.Drawing.Color.Maroon;
             this.label16.Location = new System.Drawing.Point(777, 374);
             this.label16.Name = "label16";
             this.label16.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label16.Size = new System.Drawing.Size(129, 17);
+            this.label16.Size = new System.Drawing.Size(208, 22);
             this.label16.TabIndex = 34;
             this.label16.Text = "Упс... где-то накосячил";
             this.label16.Visible = false;
@@ -474,12 +474,12 @@ namespace WindowsFormsApp1
             // 
             this.label19.AutoSize = true;
             this.label19.Cursor = System.Windows.Forms.Cursors.SizeNESW;
-            this.label19.Font = new System.Drawing.Font("Arial Narrow", 10.25F);
+            this.label19.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label19.ForeColor = System.Drawing.Color.Maroon;
             this.label19.Location = new System.Drawing.Point(16, 308);
             this.label19.Name = "label19";
             this.label19.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label19.Size = new System.Drawing.Size(124, 17);
+            this.label19.Size = new System.Drawing.Size(172, 18);
             this.label19.TabIndex = 39;
             this.label19.Text = "Просмотреть перевод";
             // 
@@ -487,12 +487,12 @@ namespace WindowsFormsApp1
             // 
             this.label20.AutoSize = true;
             this.label20.Cursor = System.Windows.Forms.Cursors.SizeNESW;
-            this.label20.Font = new System.Drawing.Font("Arial Narrow", 10.25F);
+            this.label20.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label20.ForeColor = System.Drawing.Color.Maroon;
             this.label20.Location = new System.Drawing.Point(16, 369);
             this.label20.Name = "label20";
             this.label20.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label20.Size = new System.Drawing.Size(78, 17);
+            this.label20.Size = new System.Drawing.Size(104, 18);
             this.label20.TabIndex = 40;
             this.label20.Text = "Просмотреть";
             // 
@@ -500,12 +500,12 @@ namespace WindowsFormsApp1
             // 
             this.label21.AutoSize = true;
             this.label21.Cursor = System.Windows.Forms.Cursors.SizeNESW;
-            this.label21.Font = new System.Drawing.Font("Arial Narrow", 10.25F);
+            this.label21.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label21.ForeColor = System.Drawing.Color.Maroon;
             this.label21.Location = new System.Drawing.Point(16, 428);
             this.label21.Name = "label21";
             this.label21.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label21.Size = new System.Drawing.Size(78, 17);
+            this.label21.Size = new System.Drawing.Size(104, 18);
             this.label21.TabIndex = 41;
             this.label21.Text = "Просмотреть";
             // 
@@ -527,12 +527,12 @@ namespace WindowsFormsApp1
             // 
             this.label9.AutoSize = true;
             this.label9.Cursor = System.Windows.Forms.Cursors.SizeNESW;
-            this.label9.Font = new System.Drawing.Font("Arial Narrow", 10.25F);
+            this.label9.Font = new System.Drawing.Font("Arial Black", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label9.ForeColor = System.Drawing.Color.SeaGreen;
             this.label9.Location = new System.Drawing.Point(777, 248);
             this.label9.Name = "label9";
             this.label9.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label9.Size = new System.Drawing.Size(79, 17);
+            this.label9.Size = new System.Drawing.Size(126, 22);
             this.label9.TabIndex = 44;
             this.label9.Text = "Тебе повезло";
             this.label9.Visible = false;
@@ -541,12 +541,12 @@ namespace WindowsFormsApp1
             // 
             this.label12.AutoSize = true;
             this.label12.Cursor = System.Windows.Forms.Cursors.SizeNESW;
-            this.label12.Font = new System.Drawing.Font("Arial Narrow", 10.25F);
+            this.label12.Font = new System.Drawing.Font("Arial Black", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label12.ForeColor = System.Drawing.Color.SeaGreen;
             this.label12.Location = new System.Drawing.Point(777, 313);
             this.label12.Name = "label12";
             this.label12.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label12.Size = new System.Drawing.Size(79, 17);
+            this.label12.Size = new System.Drawing.Size(126, 22);
             this.label12.TabIndex = 45;
             this.label12.Text = "Тебе повезло";
             this.label12.Visible = false;
@@ -555,12 +555,12 @@ namespace WindowsFormsApp1
             // 
             this.label13.AutoSize = true;
             this.label13.Cursor = System.Windows.Forms.Cursors.SizeNESW;
-            this.label13.Font = new System.Drawing.Font("Arial Narrow", 10.25F);
+            this.label13.Font = new System.Drawing.Font("Arial Black", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label13.ForeColor = System.Drawing.Color.SeaGreen;
             this.label13.Location = new System.Drawing.Point(777, 374);
             this.label13.Name = "label13";
             this.label13.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label13.Size = new System.Drawing.Size(79, 17);
+            this.label13.Size = new System.Drawing.Size(126, 22);
             this.label13.TabIndex = 46;
             this.label13.Text = "Тебе повезло";
             this.label13.Visible = false;
